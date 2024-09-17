@@ -1,8 +1,12 @@
 
 using Hangfire;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using UniWater_API.Data;
+using UniWater_API.Models.Identity;
 using UniWater_API.Worker.Interfaces;
+using Compacts.Simple.Identity.EF.Extensions;
+using Compacts.Simple.Identity.EF;
 
 namespace UniWater_API
 {
@@ -21,6 +25,11 @@ namespace UniWater_API
             builder.Services.AddDbContext<DatabaseContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("SQLite")));
 
             builder.Services.AddCustomServices();
+
+            //Identity
+            builder.Services.AddCompactIdentity<AppUser, IdentityRole, DatabaseContext>(db => db.UseSqlite(builder.Configuration.GetConnectionString("SQLite")));
+            builder.Services.AddJwt(builder.Configuration);
+            builder.Services.AddJwtVerificationSwagger();
 
             var app = builder.Build();
 

@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using UniWater_API.Data.Repositories.Interfaces;
 using UniWater_API.Models;
 
-namespace UniWater_API.Data.Repositories.Interfaces
+namespace UniWater_API.Data.Repositories
 {
     public class StreamingDataRepository : IStreamingDataRepository
     {

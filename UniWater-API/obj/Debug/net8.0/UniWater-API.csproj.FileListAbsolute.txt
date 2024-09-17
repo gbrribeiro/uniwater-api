@@ -73,3 +73,14 @@ C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\runtime
 C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\runtimes\alpine-x64\native\libe_sqlite3.so
 C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net7.0\e_sqlite3.a
 C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\Hangfire.InMemory.dll
+C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\Compacts.Simple.Identity.EF.dll
+C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\Compacts.Simple.Identity.EF.pdb

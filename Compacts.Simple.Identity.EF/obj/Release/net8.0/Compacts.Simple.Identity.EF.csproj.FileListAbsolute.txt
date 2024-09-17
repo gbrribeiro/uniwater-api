@@ -1,0 +1,12 @@
+C:\Dev\Projects\.NET Projects\UniWater-API\Compacts.Simple.Identity.EF\bin\Release\net8.0\Compacts.Simple.Identity.EF.deps.json
+C:\Dev\Projects\.NET Projects\UniWater-API\Compacts.Simple.Identity.EF\bin\Release\net8.0\Compacts.Simple.Identity.EF.dll
+C:\Dev\Projects\.NET Projects\UniWater-API\Compacts.Simple.Identity.EF\bin\Release\net8.0\Compacts.Simple.Identity.EF.pdb
+C:\Dev\Projects\.NET Projects\UniWater-API\Compacts.Simple.Identity.EF\obj\Release\net8.0\Compacts.Simple.Identity.EF.csproj.AssemblyReference.cache
+C:\Dev\Projects\.NET Projects\UniWater-API\Compacts.Simple.Identity.EF\obj\Release\net8.0\Compacts.Simple.Identity.EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Projects\.NET Projects\UniWater-API\Compacts.Simple.Identity.EF\obj\Release\net8.0\Compacts.Simple.Identity.EF.AssemblyInfoInputs.cache
+C:\Dev\Projects\.NET Projects\UniWater-API\Compacts.Simple.Identity.EF\obj\Release\net8.0\Compacts.Simple.Identity.EF.AssemblyInfo.cs
+C:\Dev\Projects\.NET Projects\UniWater-API\Compacts.Simple.Identity.EF\obj\Release\net8.0\Compacts.Simple.Identity.EF.csproj.CoreCompileInputs.cache
+C:\Dev\Projects\.NET Projects\UniWater-API\Compacts.Simple.Identity.EF\obj\Release\net8.0\Compacts.Simple.Identity.EF.dll
+C:\Dev\Projects\.NET Projects\UniWater-API\Compacts.Simple.Identity.EF\obj\Release\net8.0\refint\Compacts.Simple.Identity.EF.dll
+C:\Dev\Projects\.NET Projects\UniWater-API\Compacts.Simple.Identity.EF\obj\Release\net8.0\Compacts.Simple.Identity.EF.pdb
+C:\Dev\Projects\.NET Projects\UniWater-API\Compacts.Simple.Identity.EF\obj\Release\net8.0\ref\Compacts.Simple.Identity.EF.dll

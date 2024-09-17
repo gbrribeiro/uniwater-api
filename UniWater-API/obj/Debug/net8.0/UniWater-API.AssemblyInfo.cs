@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UniWater-API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f2c575fc109494205f0c7a2cef490a1da8326e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("UniWater-API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UniWater-API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
