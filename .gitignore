@@ -1,7 +1,12 @@
 .vs/*
 /.vs
+/.vs/*
 */bin
 */obj
-/.vs/*
 /UniWater-API/obj/*
 /UniWater-API/bin/*
+/.vs/UniWater-API/FileContentIndex/26ec750c-227f-459d-965f-60fb2a901de5.vsidx
+/.vs/UniWater-API/v17/.suo
+/UniWater-API/.gitignore
+/UniWater-API/obj/Debug/net8.0/UniWater-API.AssemblyInfo.cs
+/UniWater-API/obj/Debug/net8.0/UniWater-API.AssemblyInfoInputs.cache
