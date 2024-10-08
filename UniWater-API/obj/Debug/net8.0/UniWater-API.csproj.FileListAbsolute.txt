@@ -83,4 +83,4 @@ C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\Microso
 C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\Compacts.Simple.Identity.EF.dll
-C:\Dev\Projects\.NET Projects\UniWater-API\UniWater-API\bin\Debug\net8.0\Compacts.Simple.Identity.EF.pdb
+C:\Dev\Projects\.NET Projects\uniwater-api\UniWater-API\obj\Debug\net8.0\UniWater-API.sourcelink.json

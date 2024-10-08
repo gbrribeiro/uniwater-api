@@ -3,6 +3,7 @@ using Compacts.Simple.Identity.EF.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using UniWater_API.Models;
 using UniWater_API.Models.Identity;
 
 namespace UniWater_API.Controllers
@@ -19,9 +20,9 @@ namespace UniWater_API.Controllers
         }
 
         [HttpPost("Login")]
-        public async Task<ActionResult<string>> LoginWithCredentials([FromBody]string username, [FromBody]string password)
+        public async Task<ActionResult<string>> LoginWithCredentials([FromBody] LoginViewModel loginViewModel)
         {
-            return await identityControlService.LoginUser(username, password);
+            return await identityControlService.LoginUser(loginViewModel.Username, loginViewModel.Password);
         }
 
         [HttpPost("Register")]
