@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  webapp:
+    image: heyluxxy01/uniwater-api:first
+    ports:
+      - "8080:80"
+      - "8081:81"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:81;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=HeyLuxxy01
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+    volumes:
+      - ~/.aspnet/https:/https:ro

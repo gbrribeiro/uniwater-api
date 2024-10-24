@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using UniWater_API.Data.Repositories;
 using UniWater_API.Data.Repositories.Interfaces;
 using UniWater_API.Models;
@@ -7,6 +8,7 @@ using UniWater_API.Worker.Interfaces;
 namespace UniWater_API.Controllers
 {
     [ApiController]
+    [Authorize(Roles = "Admin")]
     [Route("api/v1/[controller]")]
     public class StreamingDataController
     {
@@ -18,6 +20,7 @@ namespace UniWater_API.Controllers
         }
 
         [HttpGet]
+
         public async Task<StreamingData> GetStreamingData()
         {
             //Used by mobile

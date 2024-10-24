@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http.HttpResults;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using UniWater_API.Data.Repositories.Interfaces;
@@ -8,6 +9,7 @@ using UniWater_API.Worker.Interfaces;
 namespace UniWater_API.Controllers
 {
     [ApiController]
+    [Authorize(Roles = "Admin")]
     [Route("api/v1/[controller]")]
     public class SystemController
     {

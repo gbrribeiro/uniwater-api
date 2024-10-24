@@ -49,12 +49,16 @@ namespace UniWater_API
                 app.UseSwaggerUI();
             }
 
+
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
 
 
             app.MapControllers();
+
+            //Auto migrate
+            app.Services.CreateScope().ServiceProvider.GetRequiredService<DatabaseContext>().Database.Migrate();
 
             app.Run();
         }

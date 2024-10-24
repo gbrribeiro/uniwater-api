@@ -1,0 +1,2 @@
+docker build -t heyluxxy01/uniwater-api:first .
+docker-compose -f "docker-compose.debug.yml" up -d
