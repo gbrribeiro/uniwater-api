@@ -6,6 +6,8 @@
 */obj
 /UniWater-API/obj/*
 /UniWater-API/bin/*
+/UniWater-API/obj
+/UniWater-API/bin
 /.vs/UniWater-API/FileContentIndex/26ec750c-227f-459d-965f-60fb2a901de5.vsidx
 /.vs/UniWater-API/v17/.suo
 /UniWater-API/.gitignore
