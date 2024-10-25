@@ -26,13 +26,14 @@ namespace UniWater_API.Controllers
         public async Task<SystemParameters> GetSystemParameters() 
         {
             //Get from DB
-            return await systemRepository.GetParameters();
+            return await systemRepository.GetParameters() ?? new SystemParameters{ DangerousTemperature = 100, HumidityOffPercentage = 80, HumidityOnPercentage = 20 };
         }
 
         [HttpPost()]
         public async Task<IActionResult> PostSystemParameters(SystemParameters parameters)
         {
             //Put in DB
+            parameters.Id = 1;
             var result = await systemRepository.AddParameters(parameters);
             if (result == null) return new BadRequestResult();
             return new OkObjectResult(result);

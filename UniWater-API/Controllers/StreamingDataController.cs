@@ -31,7 +31,7 @@ namespace UniWater_API.Controllers
         public async Task PostStreamingData(StreamingData streamingData)
         {
             //Used by arduino
-            streamingData.Id = 0;
+            streamingData.Id = 1;
             await _dataRepository.SaveStreamingDataAsync(streamingData);
         }
     }
