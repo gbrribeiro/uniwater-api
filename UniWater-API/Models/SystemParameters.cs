@@ -2,7 +2,7 @@
 {
     public class SystemParameters
     {
-        public int Id { get; set; } = 0;
+        public int Id { get; set; } = 1;
         public int HumidityOffPercentage { get; set; }
         public int HumidityOnPercentage { get; set; }
         public float DangerousTemperature { get; set; }

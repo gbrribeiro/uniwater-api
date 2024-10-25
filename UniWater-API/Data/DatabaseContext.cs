@@ -15,6 +15,10 @@ namespace UniWater_API.Data
         public DatabaseContext(DbContextOptions options) : base(options) { }
         protected override void OnModelCreating(ModelBuilder builder)
         {
+
+            builder.Entity<StreamingData>().HasData(new StreamingData { Id =1, Humidity = 1, InternalClock = DateTime.UtcNow, Temperature = 1 });
+            builder.Entity<SystemParameters>().HasData(new SystemParameters { Id =1, DangerousTemperature = 100, HumidityOffPercentage = 90, HumidityOnPercentage = 10 });
+
             const string ADMIN_ID = "02174cf0–9412–4cfe - afbf - 59f706d72cf6";
             const string ROLE_ID = "341743f0 - asd2–42de - afbf - 59kmkkmk72cf6";
 

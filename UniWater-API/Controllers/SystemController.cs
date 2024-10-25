@@ -26,7 +26,7 @@ namespace UniWater_API.Controllers
         public async Task<SystemParameters> GetSystemParameters() 
         {
             //Get from DB
-            return await systemRepository.GetParameters() ?? new SystemParameters{ DangerousTemperature = 100, HumidityOffPercentage = 80, HumidityOnPercentage = 20 };
+            return await systemRepository.GetParameters();
         }
 
         [HttpPost()]
