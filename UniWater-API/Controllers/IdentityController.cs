@@ -3,6 +3,8 @@ using Compacts.Simple.Identity.EF.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
+using UniWater_API.Data;
 using UniWater_API.Models;
 using UniWater_API.Models.Identity;
 
@@ -43,6 +45,7 @@ namespace UniWater_API.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<ActionResult<List<AppUser>>> GetUsers()
         {
+
             return await identityControlService.GetAllUsersAsync();
         }
     }

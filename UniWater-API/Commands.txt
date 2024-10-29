@@ -1,2 +1,6 @@
 docker build -t heyluxxy01/uniwater-api:first .
 docker-compose -f "docker-compose.debug.yml" up -d
+
+ssh -i "Key-01.pem" ubuntu@ec2-15-228-58-104.sa-east-1.compute.amazonaws.com
+
+sudo snap install --classic certbot	
